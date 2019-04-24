@@ -1,0 +1,113 @@
+// Comp Prog
+// Adriel Brian L. Reyes
+// 1 - 12 
+// sana makapasa
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    int monthno,year,day;
+    string month;
+    
+    cout<<"Enter month\n";cin>> monthno;
+    cout<<"Enter day\n";cin>>day;
+    cout<<"Enter year.\n";cin>>year;
+    
+    // Month
+    
+    switch (monthno)
+	{
+    case 1:
+    month = "January";
+    break;
+    
+    case 2:
+    month ="February";
+    break;
+    
+     case 3:
+    month ="March";
+    break;
+    
+     case 4:
+    month ="April";
+    break;
+     case 5:
+    month ="May";
+    break;
+    
+     case 6:
+    month ="June";
+    break;
+    
+     case 7:
+    month ="July";
+    break;
+    
+     case 8:
+    month ="August";
+    break;
+    
+     case 9:
+    month ="September";
+    break;
+    
+     case 10:
+    month ="October";
+    break;
+     case 11 :
+    month ="November";
+    break;
+    
+     case 12:
+    month ="December";
+    break;
+    
+    default: cout<<" Invalid\n";
+    }
+    
+    
+    
+    cout<<month<<" "<<day<<","<<year;
+    
+    {
+    	//Days
+	
+	int days = 31;
+	
+	if (monthno = 1 && day >=31)
+    cout<<" (Invalid) ";
+    if (monthno = 2 && day >=28)
+    cout<<" (Invalid) ";
+    if (monthno = 3 && day >=31)
+    cout<<" (Invalid) ";
+    if (monthno = 4 && day >=30)
+    cout<<" (Invalid) ";
+    if (monthno = 5 && day >=31)
+    cout<<" (Invalid) ";
+    if (monthno = 6 && day >=30)
+    cout<<" (Invalid) ";
+    if (monthno = 7 && day >=31)
+    cout<<" (Invalid) ";
+    if (monthno = 8 && day >=31)
+    cout<<" (Invalid) ";
+    if (monthno = 9 && day >=30)
+    cout<<" (Invalid) ";
+    if (monthno = 10 && day >=31)
+    cout<<" (Invalid) ";
+    if (monthno = 11 && day >=30)
+    cout<<" (Invalid) ";
+    if (monthno = 12 && day >=31)
+    cout<<" (Invalid) ";
+   
+   // Year 
+    cout<<year;
+}
+    
+    return 0;
+	
+}
